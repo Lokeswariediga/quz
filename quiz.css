@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-image: url("https://contentful.harrypotter.com/usf1vwtuqyxm/5cr4lVBZ2k1il5kgkj0op8/68fcc40c97192a3dbaaa20ea5153c7bf/Quizzes-Hub-Copy-compressor.png?q=75&fm=jpg&w=2560");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    background-size: cover;
+}
+.container {
+    background: #ffffff;
+    color: #333;
+    padding: 25px 30px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.3);
+    width: 450px;
+    text-align: center;
+    
+}
+h1 {
+    margin-bottom: 15px;
+    color: #444;
+}
+p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+}
+#question {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #222;
+}
+.option {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background: #f0f0f0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.option:hover {
+    background: #e0e0e0;
+}
+.option:disabled {
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+#startBtn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#startBtn:hover {
+    background: #5a67d8;
+}
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+.correct {
+    background-color: #28a745 !important;
+    color: #fff;
+}
+.wrong {
+    background-color: #dc3545 !important;
+    color: #fff;
+}
+#timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e63946;
+}

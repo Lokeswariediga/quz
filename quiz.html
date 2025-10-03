@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <div class="container">
+    <div id="timer">⏳ Time Left: 10:00</div>
+    <div id="instruction-container">
+        <h1>📘 Instructions</h1>
+        <p>✅ Correct Answer: +2 Marks</p>
+        <p>❌ Wrong Answer: -1 Mark</p>
+        <p>⏳ Exam Duration: 10 min</p>
+    </div>
+    <div id="question-container">
+        <h1 id="question">Question</h1>
+        <button class="option">Option 1</button>
+        <button class="option">Option 2</button>
+        <button class="option">Option 3</button>
+        <button class="option">Option 4</button>
+    </div>
+    <div id="result-container">
+        <h1 id="result">Your final score will appear here</h1>
+    </div>
+    <button id="startBtn">Start</button>
+  </div>
+  <script src="quiz.js"></script>
+</body>
+</html>
